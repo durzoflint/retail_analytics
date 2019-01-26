@@ -1,0 +1,208 @@
+/*@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 15px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(10px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.avatar {
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	animation: float 6s ease-in-out infinite;
+}*/
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+.landing {
+	position: relative;
+	height: 100vh;
+	background-image: url('../img/BG.png');
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.main_screen {
+	position: absolute;
+	padding-top: 20vh;
+	padding-left: 30vw;
+}
+
+.keyboard {
+	position: absolute;
+	padding-top: 65vh;
+	padding-left: 12vw;
+}
+
+.keyboard_img {
+	width: 400px;
+}
+
+.graph6 {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 42vh;
+	padding-left: 38vw;
+}
+
+.graph6_img {
+	width: 200px;
+}
+
+.graph5 {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 42vh;
+	padding-left: 50vw;
+}
+
+.graph5_img {
+	width: 220px;
+}
+
+.graph4 {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 25vh;
+	padding-left: 38vw;
+}
+
+.graph4_img {
+	width: 220px;
+}
+
+.graph3 {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 20vh;
+	padding-left: 23vw;
+}
+
+.graph3_img {
+	width: 220px;
+}
+
+.graph2 {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 40vh;
+	padding-left: 24vw;
+}
+
+.graph2_img {
+	width: 300px;
+}
+
+.graph1 {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 60vh;
+	padding-left: 38vw;
+}
+
+.graph1_img {
+	width: 250px;
+}
+
+.comment {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 58vh;
+	padding-left: 49vw;
+}
+
+.comment_img {
+	width: 150px;
+}
+
+.stand {
+	position: absolute;
+	padding-top: 76vh;
+	padding-left: 47vw;
+}
+
+.stand_img {
+	width: 200px;
+}
+
+.bag {
+	position: absolute;
+	padding-top: 76vh;
+	padding-left: 43vw;
+}
+
+.bag_img {
+	width: 120px;
+}
+
+.wifi {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 75vh;
+	padding-left: 49.5vw;
+}
+
+.wifi_img {
+	width: 80px;
+}
+
+.wifi2 {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 75vh;
+	padding-left: 53vw;
+}
+
+.wifi2_img {
+	width: 80px;
+}
+
+.mic {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	padding-top: 32vh;
+	padding-left: 53vw;
+}
+
+.mic_img {
+	width: 90px;
+}
+
+.woman1 {
+	position: absolute;
+	padding-top: 35vh;
+	padding-left: 20vw;
+}
+
+.woman1_img {
+	height: 250px;
+}
+
+.woman2 {
+	position: absolute;
+	padding-top: 44vh;
+	padding-left: 31vw;
+}
+
+.woman2_img {
+	height: 250px;
+}
