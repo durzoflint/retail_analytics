@@ -11,7 +11,14 @@
 }
 
 body {
+	font-family: 'Montserrat';
 	margin: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
 
 .landing {
@@ -20,6 +27,13 @@ body {
 	background-image: url('../img/BG.png');
 	background-repeat: no-repeat;
   	background-size: cover;
+}
+
+.heading p{
+	margin: 10px 0px 0px 10px;
+	position: absolute;
+	color: white;
+	font-size: 60px;
 }
 
 .main_screen {
@@ -196,4 +210,54 @@ body {
 
 .woman2_img {
 	height: 250px;
+}
+
+.login {
+	margin-left: 67.5vw;
+}
+
+.login_data{
+	text-align: center;
+	height: 100vh;
+	padding-top: 12vh;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.login_heading {
+	font-size: 50px;
+}
+
+.login_form {
+	margin-bottom: 30px;
+}
+
+.username {
+	border: 1px solid black;
+	line-height: 45px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.password {
+	border: 1px solid black;
+	line-height: 45px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.remember {
+	float: left;
+}
+
+.forgot {
+	float: right;
+}
+
+.submit {
+	font-weight: lighter;
+	padding: 10px 90px 10px 90px;
+	font-size: 30px;
+	background-color: black;
+	color: white;
 }
